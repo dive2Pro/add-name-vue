@@ -1,0 +1,16 @@
+{
+  "devDependencies": {
+    "jscodeshift": "^0.6.2",
+    "vue-jscodeshift-adapter": "^2.0.1"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "node src/index.js --dir src/demo"
+  },
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "html-parse-stringify": "^1.0.3",
+    "vue-sfc-parser": "^0.1.2",
+    "vue-template-compiler": "^2.5.22"
+  }
+}
