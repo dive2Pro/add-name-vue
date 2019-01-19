@@ -1,16 +1,47 @@
 {
   "devDependencies": {
-    "jscodeshift": "^0.6.2",
-    "vue-jscodeshift-adapter": "^2.0.1"
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/plugin-proposal-do-expressions": "^7.0.0",
+    "@babel/plugin-proposal-export-default-from": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^8.0.2",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.4.0",
+    "expect": "^1.20.2",
+    "got": "^6.7.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^4.3.0",
+    "prettier": "^1.8.1",
+    "rimraf": "^2.6.2",
+    "vinyl-fs": "^3.0.2"
   },
+  "name": "add-name-vue",
+  "version": "0.0.6",
   "main": "./src/index.js",
-  "scripts": {
-    "start": "node src/index.js --dir src/demo"
+  "bin": {
+    "add-name": "./bin/lib.js"
   },
+  "scripts": {
+    "start": "node src/index.js --dir src/demo",
+    "build": "node scripts/build.js"
+  },
+  "files": [
+    "bin",
+    "src",
+    "lib",
+    "template"
+  ],
   "dependencies": {
     "fs-extra": "^7.0.1",
     "html-parse-stringify": "^1.0.3",
+    "slash": "^2.0.0",
     "vue-sfc-parser": "^0.1.2",
-    "vue-template-compiler": "^2.5.22"
+    "vue-template-compiler": "2.5.17"
   }
 }
