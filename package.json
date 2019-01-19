@@ -23,7 +23,7 @@
     "vinyl-fs": "^3.0.2"
   },
   "name": "add-name-vue",
-  "version": "0.0.26",
+  "version": "0.0.27",
   "main": "./src/index.js",
   "bin": {
     "add-name": "./bin/lib.js"
