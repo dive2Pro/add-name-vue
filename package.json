@@ -7,6 +7,7 @@
     "@babel/plugin-proposal-export-default-from": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
+    "add-name-vue": "^0.0.11",
     "babel-eslint": "^8.0.2",
     "eslint": "^4.10.0",
     "eslint-config-airbnb": "^16.1.0",
@@ -22,7 +23,7 @@
     "vinyl-fs": "^3.0.2"
   },
   "name": "add-name-vue",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "main": "./src/index.js",
   "bin": {
     "add-name": "./bin/lib.js"
