@@ -23,7 +23,7 @@
     "vinyl-fs": "^3.0.2"
   },
   "name": "add-name-vue",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "main": "./src/index.js",
   "bin": {
     "add-name": "./bin/lib.js"
@@ -43,6 +43,6 @@
     "html-parse-stringify": "^1.0.3",
     "slash": "^2.0.0",
     "vue-sfc-parser": "^0.1.2",
-    "vue-template-compiler": "2.5.17"
+    "vue-template-compiler": "2.3.3"
   }
 }
